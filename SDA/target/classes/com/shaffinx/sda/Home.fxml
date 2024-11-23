@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="2500.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shaffinx.sda.HomeController">
+  <content>
+    <AnchorPane minHeight="2500.0" minWidth="1900.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="105.0" fitWidth="105.0" layoutX="22.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/logo-solo-store.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="725.0" layoutY="21.0" prefHeight="45.0" prefWidth="470.0" promptText="Search" style="-fx-border-radius: 10; -fx-background-color: #F2F0EA; -fx-background-radius: 10;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="1723.0" layoutY="57.0" text="CART">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="11.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="profile" fitHeight="57.0" fitWidth="50.0" layoutX="1813.0" layoutY="19.0" onMouseClicked="#Account" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/profile.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="1717.0" layoutY="17.0" onMouseClicked="#Cart" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/cart.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
