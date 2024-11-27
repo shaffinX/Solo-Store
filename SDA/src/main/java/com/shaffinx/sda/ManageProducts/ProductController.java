@@ -36,5 +36,12 @@ public class ProductController {
         ResultSet R = readProduct.read(storeid);
         return R;
     }
+    
+    private Search searchProduct;
+
+    public ResultSet Search(String keyword, int storeId) {
+        searchProduct = new Search();
+        return searchProduct.searchProducts(keyword, storeId);
+    }
 }
 
