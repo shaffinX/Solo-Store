@@ -1,5 +1,6 @@
 com\shaffinx\sda\HomeController.class
 com\shaffinx\sda\ManageProducts\ProductController.class
+com\shaffinx\sda\ProductDetailsController.class
 com\shaffinx\sda\ProductModel.class
 com\shaffinx\sda\Orders\Orders.class
 com\shaffinx\sda\Session\Session.class
@@ -7,8 +8,8 @@ com\shaffinx\sda\DeleteProductController.class
 com\shaffinx\sda\DBFactory\ExecSingleton.class
 com\shaffinx\sda\ProfileCController.class
 com\shaffinx\sda\ManageProducts\Create.class
-com\shaffinx\sda\ManageProducts\Search.class
 com\shaffinx\sda\OrderModel.class
+com\shaffinx\sda\Browse\pdisp.class
 com\shaffinx\sda\ManageAccountController.class
 com\shaffinx\sda\LoginController.class
 com\shaffinx\sda\OrderHistoryController.class
@@ -25,11 +26,14 @@ com\shaffinx\sda\ManageProducts\ProductProcess.class
 com\shaffinx\sda\UpdateProductController.class
 com\shaffinx\sda\DBFactory\exec.class
 com\shaffinx\sda\ManageProducts\Update.class
+com\shaffinx\sda\Browse\ProdSingleton.class
 module-info.class
 com\shaffinx\sda\DBFactory\DataBaseFactory.class
+com\shaffinx\sda\Cart\Cart.class
 com\shaffinx\sda\Orders\ReadOrders.class
 com\shaffinx\sda\ProfileSController.class
+com\shaffinx\sda\Cart\CartSingleton.class
 com\shaffinx\sda\DBFactory\PostgreSql.class
 com\shaffinx\sda\DBFactory\Database.class
 com\shaffinx\sda\Orders\CreateOrder.class
-com\shaffinx\sda\BrowseProductsController.class
+com\shaffinx\sda\CartDispController.class

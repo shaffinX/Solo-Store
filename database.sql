@@ -38,7 +38,3 @@ create table store(
 drop table orders
 update products v
 select * from users
-insert into products(prodname,pdesc,price,img,storeid) values('biscuit','lorem',50,pg_read_binary_file('F:\biscuit.jpg'),2)
-insert into orders(date,prodid,customerid) values('22-11-2024',4,2)
-
-select prodname,price,date,orderid from orders join products on orders.prodid = products.prodid where orders.customerid=2
